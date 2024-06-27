@@ -5,8 +5,9 @@ import Onboarding from "../../components/onboarding/Onboarding";
 const WelcomePage = () => {
 return (
     <div>
-        <Onboarding />
         <Welcome />
+        <Onboarding />
+        <p><b>DISCLAIMER:</b>"Patient Zero is not a substitute for therapy. We aim to provide support and resources."</p>
     </div>
 );
 };

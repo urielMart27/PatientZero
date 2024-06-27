@@ -9,12 +9,19 @@ const QuickAccessPanel = () => {
             <Link to="/myprogress">
              <button>My Progress</button>
              </Link>
-           {/* <button on onClick={onTherapyToolsClick}>Therapy Tools</button>
-            {onCommunityClick && <button onClick={onCommunityClick}>Community</button>}
-            <button on onClick={onResourcesClick}>Resources</button>
-            {onChatClick && <button onClick={onChatClick}>Chat</button>} */}
-
-
+             <Link to="/myprogress">
+             <button>Therapy Tools</button>
+             </Link>
+             <Link to="/myprogress">
+             <button>Community</button>
+             </Link>
+             <Link to="/myprogress">
+             <button>Resources</button>
+             </Link>
+             <Link to="/myprogress">
+             <button>Chat</button>
+             </Link>
+    
         </div>
     );
 };
