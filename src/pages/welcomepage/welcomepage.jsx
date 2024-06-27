@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import Welcome from "../components/Welcome";
-import Onboarding from "../components/Onboarding";
+import Welcome from "../../components/welcome/Welcome";
+import Onboarding from "../../components/onboarding/Onboarding";
 
 const WelcomePage = () => {
 return (
