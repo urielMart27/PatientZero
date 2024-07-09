@@ -8,6 +8,7 @@ import WelcomePage from "./pages/welcomepage/welcomepage";
 import HomePage from "./pages/homepage/homepage";
 import TherapyOptionsPage from "./pages///therapyoptionspage/therapyoptionspage"
 import MyProgressPage from "./pages/myprogresspage/myprogresspage";
+import TherapyToolsPage from "./pages/therapytoolspage/therapytoolspage";
 
 import NavBar from "./components/NavBar/navbar";
 
@@ -22,6 +23,8 @@ function App() {
           <Route path="/home" element={<HomePage />} />
           <Route path="/therapyoptions" element={<TherapyOptionsPage />} />
           <Route path="/myprogress" element={<MyProgressPage />} />
+          <Route path="/therapytools" element={<TherapyToolsPage />} />
+
 
       </Routes>
     </div>
