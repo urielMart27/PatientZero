@@ -15,7 +15,7 @@ const QuickAccessPanel = () => {
              <Link to="/myprogress">
              <button>Community</button>
              </Link>
-             <Link to="/myprogress">
+             <Link to="/resources">
              <button>Resources</button>
              </Link>
              <Link to="/myprogress">
