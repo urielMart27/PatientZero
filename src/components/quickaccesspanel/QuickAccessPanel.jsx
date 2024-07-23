@@ -1,10 +1,11 @@
 import React from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import "./QuickAccessPanel.css"
 
 
 const QuickAccessPanel = () => {
     return (
-        <div>
+        <div className="quick-access-panel">
             <h2>Quick Access Panel</h2>
             <Link to="/myprogress">
              <button>My Progress</button>

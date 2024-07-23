@@ -10,6 +10,7 @@ import TherapyOptionsPage from "./pages///therapyoptionspage/therapyoptionspage"
 import MyProgressPage from "./pages/myprogresspage/myprogresspage";
 import TherapyToolsPage from "./pages/therapytoolspage/therapytoolspage";
 import ResourcesPage from "./pages/resourcespage/resourcespage";
+import FindTherapistPage from "./pages/findTherapistPage/findTherapistPage";
 
 
 import NavBar from "./components/NavBar/navbar";
@@ -27,6 +28,9 @@ function App() {
           <Route path="/myprogress" element={<MyProgressPage />} />
           <Route path="/therapytools" element={<TherapyToolsPage />} />
           <Route path="/resources" element={<ResourcesPage />} />
+          <Route path="/findtherapist" element={<FindTherapistPage />} />
+
+
 
 
 

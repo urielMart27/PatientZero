@@ -1,4 +1,5 @@
 import React from "react";
+import muscleRelaxationAudio from "../../audio/musclerelaxationaudio.mp3"
 
 const ProgressiveMuscleRelaxation = () => {
     return (
@@ -19,7 +20,7 @@ const ProgressiveMuscleRelaxation = () => {
                 </ol>
             </p>
             <audio controls>
-            <source src="/src/audio/musclerelaxationaudio.mp3" type="audio/mpeg" />
+            <source src={muscleRelaxationAudio} type="audio/mpeg" />
 
                 Your Browser does not support the audio element 
             </audio>

@@ -21,8 +21,17 @@ const MoodTracker = () => {
             <p>How are you feeling today? </p>
         <div>
         {moods.map((mood, index) => (
-            <button key={index} onClick={() => handleMoodSelect(mood.mood)}>
-                {mood.icon} {mood.mood}
+            <button 
+            key={index} 
+            onClick={() => handleMoodSelect(mood.mood)}
+            style={{
+                fontSize: '2em',
+                padding: '10px',
+                border: 'none',
+                cursor: 'pointer'
+            }}
+            >
+                {mood.icon}
             </button>
 
         ))}
