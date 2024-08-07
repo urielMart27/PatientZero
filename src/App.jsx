@@ -11,6 +11,7 @@ import MyProgressPage from "./pages/myprogresspage/myprogresspage";
 import TherapyToolsPage from "./pages/therapytoolspage/therapytoolspage";
 import ResourcesPage from "./pages/resourcespage/resourcespage";
 import FindTherapistPage from "./pages/findTherapistPage/findTherapistPage";
+import CommunityForum from "./pages/CommunityForumPage/CommunityForumPage";
 
 
 import NavBar from "./components/NavBar/navbar";
@@ -29,6 +30,8 @@ function App() {
           <Route path="/therapytools" element={<TherapyToolsPage />} />
           <Route path="/resources" element={<ResourcesPage />} />
           <Route path="/findtherapist" element={<FindTherapistPage />} />
+          <Route path="/communityforum" element={<CommunityForum />} />
+
 
 
 
