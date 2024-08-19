@@ -1,0 +1,39 @@
+.posts-container {
+    margin-top: 20px;
+}
+
+.post {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+}
+
+
+.post-header {
+    display: flex; /* Align profile picture and text horizontally */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 10px; /* Space below the header */
+}
+
+.profile-pic {
+    width: 50px; /* Size of the profile picture */
+    height: 50px;
+    border-radius: 50%; /* Circular profile picture */
+    margin-right: 10px; /* Space between the image and text */
+}
+
+.username {
+    font-weight: bold; /* Make username bold */
+    margin-right: 10px; /* Space between username and date */
+}
+
+.post-date {
+    color: #777; /* Dark gray color for the date */
+    font-size: 0.9em; /* Slightly smaller text for the date */
+}
+
+.post-content {
+    line-height: 1.6; /* Increase line height for readability */
+}

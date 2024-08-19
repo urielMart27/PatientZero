@@ -13,7 +13,7 @@ const QuickAccessPanel = () => {
              <Link to="/therapytools">
              <button>Therapy Tools</button>
              </Link>
-             <Link to="/myprogress">
+             <Link to="/communityforum">
              <button>Community</button>
              </Link>
              <Link to="/resources">
